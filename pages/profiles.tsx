@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-const Home: NextPage = () => {
+const Profiles: NextPage = () => {
   return (
     <div className="grid h-screen gap-2 bg-slate-400 p-10 lg:grid-cols-2 xl:grid-cols-3 ">
       <div className="relative flex h-48 items-center justify-between rounded-3xl bg-white p-4 shadow-xl">
@@ -20,4 +20,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Profiles;
