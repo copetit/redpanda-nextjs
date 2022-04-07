@@ -21,7 +21,13 @@ http://localhost:3000/
 
 http://localhost:3000/
 
-<img width="735" alt="스크린샷 2022-04-02 10 48 13" src="https://user-images.githubusercontent.com/21287797/161360893-f670e309-f7be-4e7f-b1df-18d376460e6c.png">
+#### Normal Screen
+<img width="847" alt="normal" src="https://user-images.githubusercontent.com/21287797/162182927-789f8125-75b4-49be-be96-7c0172771835.png">
+
+#### Dark Mode Screen
+
+Press the Dark mode btn. 
+<img width="847" alt="darkmode" src="https://user-images.githubusercontent.com/21287797/162182917-1c662555-35df-4d59-b5aa-f99cbe221292.png">
 
 ### IKEA Item List
 
