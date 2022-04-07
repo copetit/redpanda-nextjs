@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <div className="mh-screen bg-gray-200 p-10">
-      <div className=" grid max-w-7xl place-items-center gap-5 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid max-w-7xl place-items-center gap-5 lg:grid-cols-3 xl:grid-cols-4">
         {/* Card */}
         <div className="relative overflow-hidden rounded-xl bg-white shadow-lg">
           <div className="flex justify-center bg-blue-200 ">
