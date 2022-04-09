@@ -1,6 +1,6 @@
 # Next.jS & Tailwind CSS Sample
 
-website clone coding with Next.js and Tailwind CSS
+website parts clone coding with Next.js and Tailwind CSS
 
 ## Usage
 
