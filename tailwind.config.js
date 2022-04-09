@@ -4,7 +4,18 @@ module.exports = {
     "./components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        "70/100": "70%",
+      },
+      colors: {
+        yellow: "#ffc82c",
+      },
+      fontFamily: {
+        sans: ["Graphik", "sans-serif"],
+        serif: ["Merriweather", "serif"],
+      },
+    },
   },
   darkMode: "class", //default media
   plugins: [],

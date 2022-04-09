@@ -7,7 +7,7 @@ const Ikea: NextPage = () => {
         {/* card */}
         <div className="bg-white p-5 shadow-md">
           <div className="flex justify-end">
-            <button className="p-2">
+            <button className="animate-pulse p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-7 w-7"
@@ -46,7 +46,7 @@ const Ikea: NextPage = () => {
                 <span className="text-sm">その他の色</span>
                 <div className=" bottom-0 right-4 space-x-2">
                   <button className="h-5 w-5 rounded-full bg-black ring-black ring-offset-2 transition focus:ring-2"></button>
-                  <button className="h-5 w-5 rounded-full bg-amber-400 ring-amber-400 ring-offset-2 transition focus:ring-2"></button>
+                  <button className="h-5 w-5 rounded-full bg-yellow ring-amber-400 ring-offset-2 transition focus:ring-2"></button>
                   <button className="h-5 w-5 rounded-full bg-teal-500 ring-teal-500 ring-offset-2 transition focus:ring-2"></button>
                 </div>
               </div>
