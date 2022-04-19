@@ -1,19 +1,6 @@
 # Next.jS & Tailwind CSS Sample
 
-website clone coding with Next.js and Tailwind CSS
-
-## Usage
-
-```
-$ code redpanda-nextjs
-
-$ npm install
-$ npm run dev
-```
-
-Default port number is 3000. but depend on the your env, it can be changed.
-
-http://localhost:3000/
+website parts clone coding with Next.js and Tailwind CSS
 
 ## Sample
 
@@ -34,6 +21,19 @@ Press the Dark mode btn.
 http://localhost:3000/ikea
 
 <img width="847" alt="ikea_sample" src="https://user-images.githubusercontent.com/21287797/162174918-109e1a04-6fdd-4cd0-b46d-1e61cceb8658.png">
+
+## Usage
+
+```
+$ code redpanda-nextjs
+
+$ npm install
+$ npm run dev
+```
+
+Default port number is 3000. but depend on the your env, it can be changed.
+
+http://localhost:3000/
 
 ## Zenn Posting (JP)
 How to set up Next.js and tailwindCSS. also explain the source code in jp
