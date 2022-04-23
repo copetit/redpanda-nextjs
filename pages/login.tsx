@@ -10,7 +10,8 @@ const Login: NextPage = () => {
   const isValid = (data: LoginForm) => {
     console.log(data);
   };
-  const isInValid = () => {
+  const isInValid = (erros: any) => {
+    console.log(errors);
     console.log("Fail Login");
   };
   const {
