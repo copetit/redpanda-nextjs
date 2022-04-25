@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { useForm } from "react-hook-form";
+import { SubmitErrorHandler, SubmitHandler, useForm } from "react-hook-form";
 
 interface LoginForm {
   email: string;
@@ -7,10 +7,10 @@ interface LoginForm {
 }
 
 const Login: NextPage = () => {
-  const isValid = (data: LoginForm) => {
+  const isValid: SubmitHandler<LoginForm> = (data: LoginForm) => {
     console.log(data);
   };
-  const isInValid = (erros: any) => {
+  const isInValid: SubmitErrorHandler<LoginForm> = (errors: any) => {
     console.log(errors);
     console.log("Fail Login");
   };
@@ -38,7 +38,9 @@ const Login: NextPage = () => {
               type="email"
               name="email"
             />
-            {errors.email?.message}
+            <div className="mt-1 font-semibold text-rose-500">
+              {errors.email?.message}
+            </div>
           </div>
           <div className="flex w-full flex-col">
             <label className="text-sm text-gray-800" htmlFor="password">
